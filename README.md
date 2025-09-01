@@ -1,4 +1,4 @@
-# Time-Series-Forecasting-on-S-P-500-
+# CNN RNN -Time-Series-Forecasting-on-S & P 500-
 CNN RNN -Time series Forecasting on S & P P 500 Index Using TF Keras - CNNs RNNs 
 
 This project aims on developing a model using keras - CNN , RNNs like LSTM , GRU combined with Convolutional layers.Please note that this project is done for exploration and learning purpose . 
