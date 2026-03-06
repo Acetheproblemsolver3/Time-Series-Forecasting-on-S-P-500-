@@ -61,7 +61,7 @@ The workflow includes:
 
 The CNN-RNN hybrid model was able to capture short-term trends in the S&P 500 time series.
 
-Evaluation metrics:  R2 score. The CNN-RNN hybrid model was evaluated using the **R² (Coefficient of Determination)** metric.
+Evaluation metrics:  R2 score.The R² score measures how well the model explains the variance in the S&P 500 time series. A higher value indicates that the model captures the underlying trend more effectively. The CNN-RNN hybrid model was evaluated using the **R² (Coefficient of Determination)** metric. 
 
 34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step 
 
