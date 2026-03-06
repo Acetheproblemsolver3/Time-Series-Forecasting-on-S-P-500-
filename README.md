@@ -61,7 +61,7 @@ The workflow includes:
 
 The CNN-RNN hybrid model was able to capture short-term trends in the S&P 500 time series.
 
-Evaluation metrics: 
+Evaluation metrics:  R2 score
 
 34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step 
 
