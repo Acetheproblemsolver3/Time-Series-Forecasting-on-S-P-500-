@@ -1,0 +1,74 @@
+# S&P 500 Time Series Forecasting using CNN-RNN Models
+
+## Project Overview
+This project explores deep learning approaches for financial time series forecasting using historical S&P 500 index data. The goal is to investigate whether hybrid neural network architectures combining Convolutional Neural Networks (CNN) with Recurrent Neural Networks (RNN) such as LSTM and GRU can capture temporal patterns in financial market data.
+
+The project is primarily exploratory and focuses on understanding how deep learning models behave when applied to noisy financial time series.
+
+---
+
+## Dataset
+
+The dataset used for this project is obtained from Kaggle:
+
+https://www.kaggle.com/datasets/arashnic/time-series-forecasting-with-yahoo-stock-price
+
+It contains historical stock price data sourced from Yahoo Finance.
+
+Typical features include:
+
+- Date
+- Open
+- High
+- Low
+- Close
+- Volume
+
+The S&P 500 index is used as the target time series for forecasting.
+
+---
+
+## Methodology
+
+The project explores hybrid deep learning architectures combining convolutional and recurrent layers:
+
+- **CNN layers** to extract short-term temporal features
+- **LSTM layers** to capture long-term dependencies
+- **GRU layers** as an alternative recurrent architecture
+
+The models are implemented using **TensorFlow Keras**.
+
+The workflow includes:
+
+1. Data preprocessing and normalization
+2. Train-test chronological split
+3. Model training using CNN-RNN architectures
+4. Forecast generation and visualization
+
+---
+
+## Technologies Used
+
+- Python
+- TensorFlow / Keras
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+---
+
+## Project Purpose
+
+This project is designed for **learning and experimentation with deep learning models for time series forecasting**. Financial markets are highly noisy and difficult to predict, so the focus here is on exploring modeling approaches rather than building a production trading system.
+
+---
+
+## Future Improvements
+
+Possible future extensions include:
+
+- Adding additional macroeconomic features
+- Using transformer-based time series models
+- Hyperparameter tuning
+- Comparing deep learning models with classical models like ARIMA or Prophet
