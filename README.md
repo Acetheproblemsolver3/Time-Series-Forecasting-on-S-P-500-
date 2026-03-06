@@ -41,7 +41,7 @@ The models are implemented using **TensorFlow Keras**.
 The workflow includes:
 
 1. Data preprocessing and normalization
-2. Train-test chronological split
+2. Train-test chronological split - The dataset was split chronologically to prevent data leakage and ensure the model was evaluated on future observations.
 3. Model training using CNN-RNN architectures
 4. Forecast generation and visualization
 
