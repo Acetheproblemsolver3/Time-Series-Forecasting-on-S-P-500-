@@ -57,7 +57,17 @@ The workflow includes:
 - Scikit-learn
 
 ---
+## Results
 
+The CNN-RNN hybrid model was able to capture short-term trends in the S&P 500 time series.
+
+Evaluation metrics:
+
+
+
+The model performs reasonably well on trend prediction but struggles during periods of high market volatility.
+
+---
 ## Project Purpose
 
 This project is designed for **learning and experimentation with deep learning models for time series forecasting**. Financial markets are highly noisy and difficult to predict, so the focus here is on exploring modeling approaches rather than building a production trading system.
