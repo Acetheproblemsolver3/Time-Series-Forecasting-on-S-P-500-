@@ -63,8 +63,11 @@ The CNN-RNN hybrid model was able to capture short-term trends in the S&P 500 ti
 
 Evaluation metrics: 
 34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step
+
 12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step 
+
 12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step 
+
 0.9959789601187466
 0.9749589863008734
 0.9614490323959186
