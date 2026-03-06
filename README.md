@@ -61,18 +61,20 @@ The workflow includes:
 
 The CNN-RNN hybrid model was able to capture short-term trends in the S&P 500 time series.
 
-Evaluation metrics: \n
-34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step \n
+Evaluation metrics: 
 
-12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step \n
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step 
 
-12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step \n
+12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step 
+
+12/12 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step 
 
 0.9959789601187466
 
 0.9749589863008734
 
 0.9614490323959186
+
 The model built with LSTM with Conv1D layers , gave us excellent results of r2_scores with 99% on the training set , 97% on the validation set and a whooping 96% on the test set .
 The model performs reasonably well on trend prediction but struggles during periods of high market volatility.
 
